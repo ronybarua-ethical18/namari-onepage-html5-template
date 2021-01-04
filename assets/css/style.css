@@ -1,0 +1,362 @@
+/* ================================================
+	Template Name: Namari One Page HTML5 Template
+	Template URI: http://rony.visualworkstation.com
+	Description: Namari One Page HTML5 Template
+	Author: "Rony Jackson"
+	Author URI: www.facebook.com/ronybarua.cmt
+	Version: 1.0
+	===================================================
+	
+	>TABLE OF CONTENT
+	--------------------------------
+	1. THEME BASIC CSS
+	2.DEFAULT DESIGN
+	3. HEADER DESIGN
+	4. GALLERY DESIGN
+	5. SERVICE DESIGN
+	6. TESTIMONIALS DESIGN
+	7. CLIENTS
+	8. PRICING
+	9. FOOTER
+	
+================================================ */
+
+/*1. theme basic css start------------------------------------------------*/
+
+*{
+	
+	padding: 0;
+	margin:0;
+	box-sizing:border-box;
+}
+html{
+	
+	width:100%;
+	height:100%;
+}
+body{
+	
+	font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+	background-color:#CCCCCC;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: center;
+	/* padding:15px; */
+	margin: 0;
+    padding: 15px;
+	width:100%;
+	height:100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.2;
+	letter-spacing:2px;
+}
+header{
+	
+	
+	width:100%;
+	height:auto;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	padding:15px 0;
+	overflow:hidden;
+	
+}
+h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 62px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #111;
+}
+h4{
+	
+	font-size:18px;
+	
+}
+a{
+	
+	font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	text-decoration: none;
+	display:block;
+	text-transform: uppercase;
+    padding: 0 10px;
+	color:#111;
+}
+a:hover,
+a:focus,
+a:active{ 
+	color:#FFC107;
+	text-decoration: none; 
+	border-bottom:1px solid #FFC107;
+	
+	
+}
+ul,li{
+	
+	list-style:none;
+}
+
+p {
+	
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+	margin-top: 10px;
+}
+
+button:focus {
+    outline:none;
+}
+
+blockquote{
+	
+	font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+	font-size:1rem !important;
+}
+
+/*1. theme basic css end------------------------------------------------*/
+
+/* *2. default design start------------------------------------------ */
+
+.heading-line:after{
+	
+	content:"";
+	background-color:#FFC107;
+	width:50px;
+	height:2px;
+	clear:both;
+	margin-top:25px;
+	display:block;
+}
+.heading h2:before{
+	
+	content:"";
+	background-color:#FFC107;
+	width:30px;
+	height:2px;
+	clear:both;
+	margin-right:15px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.heading h2:after{
+	content:"";
+	background-color:#FFC107;
+	width:30px;
+	height:2px;
+	clear:both;
+	margin-left:15px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.color-opacity{
+	
+	opacity:0.4;
+}
+/* *2. default design end------------------------------------------ */
+
+/* *3. header design start------------------------------------------ */
+
+.navbar-toggler-icon {
+	
+    cursor: pointer;
+}
+.navbar-toggler{
+	
+	padding:0;
+}
+.navbar{
+	background:transparent;
+}
+.navbar img {
+    max-height: 30px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.9);
+    border-color: rgba(0,0,0,.7);
+	
+}
+.fixed-top {
+	
+    top: 1rem !important;
+    right: 1rem !important;
+    left: 1rem !important;
+    z-index: 1030;
+    background: rgba(255,255,255,0.9) !important;
+}
+.content{
+	
+	overflow:hidden;
+	padding:150px 0;
+}
+.content a{
+	
+	color:#000;
+	font-weight:600;
+	font-size:15px;
+	padding:15px;
+	border:3px solid #000;
+}
+.content a:hover{
+	
+	color:#FFC107;
+	border:2px solid #FFC107;
+	transition:all 0.3s ease-in-out;
+}
+/* *3. header design end------------------------------------------ */
+
+/* *4. gallery design start------------------------------------------ */
+
+.card .card-img-overlay {
+    opacity:0;
+}
+.card .card-img-overlay:hover {
+    opacity:0.8;
+	background:#fff;
+	transition:all 0.5s ease-in-out;
+	color:#FFC107;
+}
+
+/* *4. gallery design end------------------------------------------ */
+
+/* *5. service design start------------------------------------------ */
+
+.service-image img{
+	
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+}
+.service-focus a{
+	color:#000;
+	font-weight:800;
+	font-size:15px;
+	border:2px solid #000;
+	
+}
+.service-focus a:hover{
+	
+	color:#FFC107;
+	border:2px solid #FFC107;
+	transition:all 0.3s ease-in-out;
+}
+
+/* *5. service design end------------------------------------------ */
+
+/* *6. testimonials design start------------------------------------------ */
+
+.clients-speech img {
+    max-height: 120px;
+    border-radius: 250em;
+	margin-bottom:25px;
+}
+.media-body footer:before{
+	
+	display:block;
+	content:"";
+	background-color:#FFC107;
+	width:40px;
+	height:2px;
+	clear:both;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+
+/* *6. testimonials design end------------------------------------------ */
+
+/* *7. clients design start------------------------------------------ */
+
+.clients-logo img{
+	
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+.company-image{
+	position:relative;
+	width:100%;
+	height:auto;
+	
+}
+.clients-logo > .company-image, .card-img-overlay{
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.company-image .card-img-overlay{
+	
+	opacity:0;
+}
+.company-image .card-img-overlay:hover{
+	
+	opacity:1;
+	color:#fff;
+	background-color:rgba(0,0,0, 0.7);
+	transition:all .3s linear;
+}
+
+/* *7. clients design end------------------------------------------ */
+
+/* *8. pricing design start------------------------------------------ */
+
+.pricing-column:hover{
+	
+	border:3px solid #FFC107 !important;
+	transition:all .3s linear;
+}
+.package-menu li{
+	
+	border-bottom:1px dotted grey;
+	padding: 1rem 0;
+}
+.package-menu a{
+	
+	font-weight:bold;
+	border:3px solid #000;
+	
+}
+.student-anchor:hover{
+	
+	color:#FFC107;
+	border-color:#FFC107;
+	
+}
+/* *8. pricing design end------------------------------------------ */
+
+/* *9. footer design start------------------------------------------ */
+
+.footer-anchor{
+	
+	font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+/* *9. footer design end------------------------------------------ */

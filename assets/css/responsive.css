@@ -1,0 +1,124 @@
+
+/*		Default Layout: 992px. 
+	Gutters: 24px.
+	Outer margins: 48px.
+	Leftover space for scrollbars @1024px: 32px.
+	-------------------------------------------------------------------------------
+	cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+/*	Tablet Layout: 768px.
+	Gutters: 24px.
+	Outer margins: 28px.
+	Inherits styles from: Default Layout.
+	-----------------------------------------------------------------
+	cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+	
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+	Gutters: 24px.
+	Outer margins: 34px.
+	Inherits styles from: Default Layout.
+	---------------------------------------------
+	cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.heading h2{
+		
+		font-size:16px;
+	}
+	.pricing-table-1, .pricing-table-2, .client-speech-1, .client-speech-2, .service-quote, .service-focus{
+		
+		margin-bottom:20px;
+	}
+	.social-links .nav-item a{
+		padding-right: .25rem!important;
+		padding-left: .25rem!important;
+	}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+	Gutters: 24px.
+	Outer margins: 22px.
+	Inherits styles from: Default Layout, Mobile Layout.
+	------------------------------------------------------------
+	cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.pricing-table-1, .pricing-table-2, .client-speech-1, .client-speech-2, .service-quote, .service-focus{
+		
+		margin-bottom:20px;
+	}
+	
+	.tools-responsive{
+		
+		margin-bottom:3rem;
+	}
+	.content a{
+		
+		font-size:12px;
+	}
+	.heading h2{
+		
+		font-size:20px;
+	}
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	
+	.navbar img{
+		margin-right:0px;
+	}
+	
+	.heading h2{
+		
+		font-size:16px;
+	}
+	h1{
+		
+		font-size:50px;
+	}
+	
+	.tools-responsive{
+		
+		margin-bottom:3rem;
+	}
+
+
+.heading h2:after{
+	
+	margin-left:5px;
+
+}
+.heading h2:before{
+	
+	margin-right:5px;
+
+}
+}
