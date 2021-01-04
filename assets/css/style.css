@@ -207,7 +207,7 @@ blockquote{
 .content{
 	
 	overflow:hidden;
-	padding:150px 0;
+	padding:150px 0 150px 16px;
 }
 .content a{
 	
